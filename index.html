@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+    <form action="https://formspree.io/f/xqazbbgn" method="post">
+        <h2>FORMULÁRIO</h2>
+        <label>Nome</label>
+        <input type="text" name="Nome" placeholder="Digite seu nome" required autocomplete="off">
+        <label>Email</label>
+        <input type="email" name="Email" placeholder="Digite seu email" value="@gmail.com" autocomplete="off">
+        <label>Número de telefone</label>
+        <input type="number" name="Numero" placeholder="(XX) XXXXX-XXXX" required autocomplete="off">
+        <label>Escreva aqui</label>
+        <textarea name="feedback" id=""></textarea>
+        <h1>Você trabalha?</h1>
+        <div>
+        <input type="radio" name="work" value="Sim" checked> Com certeza
+        <input type="radio" name="work" value="Sim"> Não
+    </div>
+        <select name="estados" id="">
+        <option value="1">Paraná</option>   
+        <option value="2">Rio de Janeiro</option>   
+        <option value="3">São Paulo</option>   
+        <option value="4">Minas geraiss</option>   
+        </select>
+        Aceita receber novidades da empresa?<input type="checkbox" name="checkbox">
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </form>
+</section>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+div {
+    margin: 20px 15px;
+}
+h1 {
+    text-align: center;
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+form button:hover{
+    border-radius: 16px;
+}
+
+form input:hover{
+    border-radius: 16px;
+}
+
+form textarea:hover{
+    border-radius: 16px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 1;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 1;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}    
+
+form button{
+    padding: 15px;
+    outline: none;
+    border: 1;
+    margin-top: 20px;
+    font-size: 15px;
+}   
+
+form select{
+    padding: 15px;
+    border: 1;
+    margin: 20px 15px;
+    font-size: 15px;
+}
+
+form label{
+    font-size: 17px;
+    margin-bottom: 25px;
+}
